@@ -1,4 +1,4 @@
-# amazon_clone
+# AMAZON CLONE
 
 # Website Clone Project
 
