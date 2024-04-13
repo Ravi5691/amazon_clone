@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display:flex;
+    color:white;
+    background-color: #131d1d;
+    height:60px;
+    /* justify-content: space-between; */
+}
+/* .nav .first:hover{
+    border-radius: 2px;
+    border: solid 1px white;
+} */
+.nav .first{
+    display: flex;
+    justify-items: center;
+    gap:0;
+    padding: 6px  0 6px 0;
+    align-items: center;
+    margin:6px 0 6px 11px;
+
+}
+.nav .first img{
+    width: 97px;
+    padding: 7px 0px 0 6px;
+    margin:1px;
+}
+.nav .first span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color:white;
+    position: relative;
+    text-decoration: none;
+    bottom:17px;
+    padding:33px 8px 1px 1px;
+}
+.nav .second{
+    display: flex;
+    justify-content: center;
+    margin: 6px 6px;
+    padding:6px 2px;
+}
+/* .nav .second:hover{
+    border-radius: 2px;
+    border: solid 1px white;
+} */
+.nav .second button{
+    background-color: #131d1d;
+    border-color: #131d1d;
+    border-width: 0ch;
+    color: white;
+}
+.nav .second button :nth-child(1){
+    position: relative;
+    bottom: -12px;
+    /* top:-6px; */
+}
+.nav .second button :nth-child(2){
+    position: relative;
+    top:-6px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.nav .second button :nth-child(4){
+    font-size: 14px;
+    font-weight: 700;
+    top:-6px;
+    /* line-height: 20px; */
+    position: relative;
+    left:-21px;
+}
+.nav .third{
+    display: flex;
+    justify-content: center;
+    margin: 6px 6px;
+    padding:6px 2px;
+}
+.nav .third .one{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:solid 1px rgb(197, 197, 197);
+    width:50px;
+ }
+ .nav .third .one span{
+    position: relative;
+    font-size: 12px;
+ }
+ .nav .third .one svg {
+    position:relative;
+    top:3px;
+ }
+.nav .third input{
+    width:707px;
+    border:solid 2px white;
+    
+}
+
+.nav .third .two{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border:solid 1px rgb(255, 188, 64);
+    width:40px;
+    background-color:rgb(255, 188, 64);
+ }
+
+.nav .fourth{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin: 5px 12px;
+    gap: 6px;
+
+}
+.nav .fourth .navelement0 :nth-child(1) {
+ position: relative;
+ top:3px;
+}
+.nav .fourth .navelement0 :nth-child(2){
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    right: 3px;
+}
+.nav .fourth .navelement0 :nth-child(3){
+    position: relative;
+ top:5px;
+ right: 6px;
+}
+.nav .fourth .navelement1 :nth-child(1){
+   font-weight: 400;
+   font-size: 12px;
+   position: relative;
+    top:2px;
+}
+.nav .fourth .navelement1 :nth-child(3){
+    font-weight: 700;
+    font-size: 14px;
+    position: relative;
+    bottom:4px;
+}
+.nav .fourth .navelement1 :nth-child(4){
+   position: relative;
+   left:0px;
+}
+.nav .fourth .navelement2 :nth-child(1){
+    font-weight: 400;
+   font-size: 12px;
+   position: relative;
+    top:2px;
+}
+.nav .fourth .navelement2 :nth-child(3){
+    font-weight: 700;
+    font-size: 14px;
+    position: relative;
+    bottom:4px;
+}
+.nav .fourth .navelement3 {
+    position: relative;
+}
+.nav .fourth .navelement3 :nth-child(1){
+    position: relative;
+    bottom:-4px;
+}
+.nav .fourth .navelement3 :nth-child(2){
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
+    bottom:-1px;
+    right:2px;
+}
